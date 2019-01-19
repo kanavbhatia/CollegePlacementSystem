@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    border-radius: 50%;
+    width: 8vw;
+}
+#aside{
+    background: blue;
+    width: 30vw;
+    display: inline-block;
+    height: 1000px;
+}
+.a ,.b{
+    display: inline-block;
+    width: 10vw;
+    height: 100px;
+    background: yellow;
+}
+button {
+    width: 10vw;
+}
