@@ -109,3 +109,27 @@ main{
     height: 100%;
     width: 70vw;
 }
+#sections{
+    margin-top: 30px;
+}
+#sections li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#sections>li>a{
+    text-decoration: none;
+}
+main :first-child{
+    height: 10%;
+    background: gray;
+    display: flex;
+}
+#content{
+    margin: 10%;
+    background: violet;
+    height: 60%;
+}
+#content>figure{
+    width: 30%;
+    height: 30%;
+}
