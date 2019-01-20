@@ -26,6 +26,12 @@ li a:hover{
     padding: 12px;
     margin: 0px;
     width: 100vw;
+    position: relative;
+    padding-left: 4em;
+    display: block;
+}
+.navbar li{
+    padding-right: 2em;
 }
 body{
     font-family: 'Conv_helveticaneuecyr-roman', sans-serif;
@@ -45,7 +51,8 @@ body{
     min-width: 85px;
     height: 0;
     overflow: hidden;
-    transition: height 2s ease-in;
+    /* transition: height 2s ease-in; */
+    transition: color 0.4s;
 }
 .dropdown-content p{
     margin: 0px;
@@ -62,6 +69,7 @@ hr{
 .dropdown:hover .dropdown-content{
     display: block;
     height: 100px;
+    color: #0054d0;
 }
 .dropdown-content p:hover{
     background-color: #0054d0;
@@ -69,7 +77,22 @@ hr{
     transition: height 10s;
 }
 
-#ll{
+#l5{
+    /* float: right; */
+}
+#l1{
+    float: left;
+    padding-top: 0.9em;
+    padding-right: 37%;
+}
+#l4{
+    padding-right: 35%;
+}
+#lmain{
+    position: absolute;
+    top: 1.5em;
+    left: 4em;
+    display: none;
 }
 main{
     /* display: inline-block;
@@ -82,15 +105,53 @@ aside{
     width: 20vw;
     background-color: aquamarine;
     display: inline-block;
-    margin-top: 4em;
+    margin-top: 3em;
     height: 60vw;
 }
 .bolii{
     width: 70vw;
     background-color: burlywood;
     display: inline-block;
-    margin-top: 4em;
+    margin-top: 3em;
     height: 60vw;
 }
+
+
+@media(max-width:1240px){
+    #lmain{
+        display: block;
+    }
+    #l1{
+        display: none;
+    }
+    #l2{
+        display: none;
+    }
+    #l3{
+        display: none;
+    }
+    #l4{
+        display: none;
+    }
+    #l5{
+        display: none;
+    }
+    .navbar{
+        padding: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* transitions of drop down menu not working, align content at a specific position of navbar */
