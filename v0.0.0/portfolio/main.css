@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+     box-sizing: border-box; 
 }
 img{
     border-radius: 50%;
@@ -22,9 +22,31 @@ button {
 }
 #abc{
     height: 25%;
+    position : relative;
     background: green;
 }
-img{
+#abc>button{    display: inline;
+    width: 15%;
+    height: 15%;
+    background: yellow;
+    /* padding-right: 10%; */
+    margin-right: 17%;
+    top: 80px;
+    left: 10%;
+    /* margin-bottom: 2%; */
+    position: absolute;
+    /* padding-bottom: 10%; */}
+#abc>img{
+    margin-left: 34%;
+    margin-top: 6%;
+    height: auto;
+
+}
+#abc>p{
+    margin: 0px;
+    text-align: center;
+}
+.thumbnail{
     display: inline-block;
     height: 80%;
     width: 30%;
@@ -49,8 +71,6 @@ img{
     display: inline-block;
     margin-top: 1px;
     /* position: absolute; */
-    position: absolute;
-    top: 10px;
     /* padding-right: 8px; */
     margin-right: 62px;
     height: 20px;
@@ -63,7 +83,7 @@ img{
     height: 29px;
 }
 #data>div>div{
-    padding-left: 30%;
+    padding-left: 14%;
     margin-top: 10px;
     padding-bottom: 8px;
     display: inline-block;
@@ -72,7 +92,8 @@ img{
     padding-left: 33%;
 }
 .info{
-    height: 175 px;
+    height: 25%;
     width: 100%;
-    background: pink
+    background: pink;
+    display: inline-block;
 }
