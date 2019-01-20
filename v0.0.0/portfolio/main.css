@@ -5,7 +5,7 @@ img{
     border-radius: 50%;
     width: 8vw;
 }
-#aside{
+aside{
     background: blue;
     width: 30vw;
     display: inline-block;
@@ -13,10 +13,53 @@ img{
 }
 .a ,.b{
     display: inline-block;
-    width: 10vw;
+    width: 32.2%;
     height: 100px;
     background: yellow;
 }
 button {
-    width: 10vw;
+    width: 100%;
+}
+#abc{
+    height: 200px;
+    background: green;
+}
+img{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+#icons{
+    padding-left: 41%;
+    padding-right: 40%; 
+    padding-top: 10px;
+    height: 50px;
+}
+#data>div{
+    display: block;
+    background: red;
+    height: 100px;
+    position: relative;
+}
+}
+#data>div>img,#data>div>div{
+    display: inline-block;
+    margin-top: 1px;
+    /* position: absolute; */
+    position: absolute;
+    top: 10px;
+    /* padding-right: 8px; */
+    margin-right: 62px;
+    height: 20px;
+}
+#data>div>div{
+    padding-left: 30%;
+    margin-top: 10px;
+
+    padding-bottom: 8px;
+    display: inline-block;
+} 
+#data>div>#title{
+    padding-left: 156px;
+    padding-left: 25%;
 }
