@@ -37,9 +37,10 @@ button {
     position: absolute;
     /* padding-bottom: 10%; */}
 #abc>img{
-    margin-left: 34%;
-    margin-top: 6%;
-    height: auto;
+    margin-left: 29%;
+    margin-top: 4%;
+    height: 80%;
+    width: 40%;
 
 }
 #abc>p{
@@ -96,4 +97,5 @@ button {
     width: 100%;
     background: pink;
     display: inline-block;
+    padding-left: 10%
 }

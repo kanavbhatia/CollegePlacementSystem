@@ -89,8 +89,20 @@ hr{
 }
 #lmain{
     position: absolute;
-    top: 1.5em;
+    top: 0.8em;
     display: none;
+    background-color: #202836;
+    color: white;
+    border: 0 none;
+    font-size: 1.3em;
+}
+#lmain2{
+    width: 100vw;
+    background-color: #202836;
+    color: white;
+    margin: .3em;
+    display: none;
+
 }
 main{
     margin-top: 8em;
@@ -136,11 +148,11 @@ aside{
 @media(max-width:700px){
 
     aside{
-        width: 90vw;
+        width: 80vw;
 
     }
     .bolii{
-        width: 90vw;
+        width: 100%;
     }
 
 }
