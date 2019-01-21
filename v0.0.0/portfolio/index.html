@@ -6,7 +6,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <aside>
@@ -42,20 +42,54 @@
             </div>
     </aside>
     <main>
-        <div>
+        <div id ='section-nav'>
             <ul id="sections">
-                <li><a href="">Projecs</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Academy</a></li>
+                <li><a  id ='sec1' href="">Projecs</a></li>
+                <li><a id ='sec2' href="">Skills</a></li>
+                <li><a id = 'sec3' href="">About Me</a></li>
+                <li><a id="sec4" href="">Academics</a></li>
             </ul>
         </div>
-        <div id="content" >
-            <figure>
-                <img src="img.png">
-                <figcaption>this is a project</figcaption>
-            </figure>
+
+        <div class="content" id = "con-sec1" >           
+            <ol>      
+                <li><a href="https://github.com/ketan18710/Speech-to-Text"><strong>Speech to Text</strong></a></li>
+                <li><a href="https://github.com/ketan18710/coding-blocks"><strong>Coding Blocks </strong></a></li>
+                <li><a href="repositiory clone"><strong> design </strong></a></li>
+      
+            </ol>
+        </div>
+        <div class="content" id = "con-sec2" >   
+            <ol>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>ANdroid</li>
+            </ol>
+        </div>
+        <div class="content" id = "con-sec3" >   
+            <div>
+                <h1>Co-cirricular</h1>
+                <ul>
+                    <li>Momentum -main</li>
+                    <li>TedX - Core</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Hobbies</h1>
+                <ul>
+                    <li>Content -writing</li>
+                    <li>Tv Series</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content" id = "con-sec4" >
+            <strong>CGPA : 7.51</strong>  
+            
         </div>
     </main>
+    <!-- <script src="'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'"></script> -->
+    <script src="main.js"></script>
 </body>
 </html>

@@ -109,27 +109,59 @@ main{
     height: 100%;
     width: 70vw;
 }
-#sections{
+#sections,.content{
     margin-top: 30px;
+    height: 100%;
+    background: #808080;
+    display: flex;
+    padding-top: 1%;
 }
 #sections li{
     display: inline-block;
     padding-right: 10px;
 }
-#sections>li>a{
+a{
     text-decoration: none;
 }
-main :first-child{
-    height: 10%;
-    background: gray;
-    display: flex;
-}
-#content{
+
+.content{
     margin: 10%;
     background: violet;
     height: 60%;
+    padding-left: 10%
 }
-#content>figure{
-    width: 30%;
-    height: 30%;
+.content >ol li{
+    height: 10%;
+}
+.content >ol{
+    padding-top: 5%;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: red;
+    margin : 0px;
+}
+.content ol li>a{
+    color :green
+}
+#section-nav{
+    height: 5%;
+}
+/* #con-sec3{
+    display: flex;
+}
+#con-sec2{
+    display: none;
+}
+#con-sec4{
+    display: none;
+}
+#con-sec3{
+    display: none;
+} */
+.content{
+    display: none;
+}
+#con-sec1{
+    display: flex;
 }
