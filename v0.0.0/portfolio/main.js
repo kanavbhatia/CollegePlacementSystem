@@ -9,7 +9,7 @@
     for (i = 0; i < sec.length; i++) {
         sec[i].style.display = 'none';
       }
-      sec[j].style.display = 'flex';
+      sec[j].style.display = 'block';
  }
  sec1.onclick = function(){
     change_display(0);

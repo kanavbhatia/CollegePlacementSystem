@@ -120,6 +120,10 @@ main{
     display: inline-block;
     padding-right: 10px;
 }
+#sections li >button{
+    border: none;
+    background: none;
+}
 a{
     text-decoration: none;
 }
@@ -163,5 +167,5 @@ a{
     display: none;
 }
 #con-sec3{
-    display: flex;
+    display: block;
 }
