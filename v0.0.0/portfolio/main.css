@@ -148,10 +148,14 @@ a{
 .content ol li>a{
     color :green
 }
+.content{
+    display: none;
+}
+
 #section-nav{
     height: 5%;
 }
-/* #con-sec3{
+ #con-sec3{
     display: flex;
 }
 #con-sec2{
@@ -162,10 +166,16 @@ a{
 }
 #con-sec3{
     display: none;
+<<<<<<< HEAD
 } */
 .content{
     display: none;
 }
 #con-sec3{
     display: block;
+=======
+} 
+#con-sec1{
+    display: flex;
+>>>>>>> a31763a5db413334c6c64f99630919555b7fdb61
 }
