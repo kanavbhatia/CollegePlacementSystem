@@ -5,10 +5,11 @@
  let sec = document.getElementsByClassName("content");
  function change_display(j)
  {
-    sec[j].style.display = 'flex';
-    for (i = 0; i < sec.length && i!=j; i++) {
+  
+    for (i = 0; i < sec.length; i++) {
         sec[i].style.display = 'none';
       }
+      sec[j].style.display = 'flex';
  }
  sec1.onclick = function(){
     change_display(0);
