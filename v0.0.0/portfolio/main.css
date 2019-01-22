@@ -75,8 +75,6 @@ button {
 #data>div>img,#data>div>div{
     display: inline-block;
     margin-top: 1px;
-    /* position: absolute; */
-    /* padding-right: 8px; */
     margin-right: 62px;
     height: 20px;
 }
@@ -148,34 +146,12 @@ a{
 .content ol li>a{
     color :green
 }
-.content{
-    display: none;
-}
-
 #section-nav{
     height: 5%;
 }
- #con-sec3{
-    display: flex;
-}
-#con-sec2{
-    display: none;
-}
-#con-sec4{
-    display: none;
-}
-#con-sec3{
-    display: none;
-<<<<<<< HEAD
-} */
 .content{
     display: none;
 }
 #con-sec3{
     display: block;
-=======
-} 
-#con-sec1{
-    display: flex;
->>>>>>> a31763a5db413334c6c64f99630919555b7fdb61
 }
