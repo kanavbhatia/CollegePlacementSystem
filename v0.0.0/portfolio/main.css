@@ -151,29 +151,7 @@ aside{
         padding: 2em;
     }
 }
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: .6s;
-    width: 70%;
-    margin: auto;
-    border: solid;
-}
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card img {
-    border-radius: 50px;
-    width: 32em;
-    display: block;
-    margin: auto;
-  }
-.card h3{
-    margin: auto 0 auto 47px;
-}
-  
-.cards {
-padding: 2px 16px;
-}
+
 
 @media(max-width:700px){
 
