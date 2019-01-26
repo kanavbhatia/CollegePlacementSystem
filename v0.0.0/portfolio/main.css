@@ -1,6 +1,193 @@
 *{
      box-sizing: border-box; 
 }
+/* NAVBAR */
+.container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+} 
+.navbar li{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s;
+}
+.cards hr{
+    margin:1px;
+}
+li a:hover{
+    color: #0054d0;
+}
+.navbar{
+    background-color: #222835;
+    padding: 12px;
+    margin: 0px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    display: block;
+}
+.navbar li{
+    padding-right: 2em;
+}
+body{
+    font-family: 'Conv_helveticaneuecyr-roman', sans-serif;
+    margin: 0px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+    min-width: 85px;
+    height: 0;
+    overflow: hidden;
+    /* transition: height 2s ease-in; */
+    transition: color 0.4s;
+}
+.dropdown-content p{
+    margin: 0px;
+    padding: px;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 6px 0px 7px 10px;
+    transition: height 10s;
+}
+hr{
+    margin: 0px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    height: 100px;
+    color: #0054d0;
+}
+.dropdown-content p:hover{
+    background-color: #0054d0;
+    color: #fff;
+    transition: height 10s;
+}
+
+#l5{
+    /* float: right; */
+}
+#l1{
+    float: left;
+    padding-top: 0.9em;
+    padding-right: 37%;
+}
+#l4{
+    padding-right: 35%;
+}
+#lmain{
+    position: absolute;
+    top: 0.8em;
+    display: none;
+    background-color: #202836;
+    color: white;
+    border: 0 none;
+    font-size: 1.3em;
+}
+#lmain2{
+    width: 100vw;
+    background-color: #202836;
+    color: white;
+    margin: .3em;
+    display: none;
+
+}
+main{
+    margin-top: 8em;
+
+}
+aside{
+    width: 20vw;
+    display: inline-block;
+    height: 60vw;
+}
+.bolii{
+    width: 70vw;
+    display: inline-block;
+    height: 60vw;
+}
+
+
+@media(max-width:1240px){
+    #lmain{
+        display: block;
+    }
+    #l1{
+        display: none;
+    }
+    #l2{
+        display: none;
+    }
+    #l3{
+        display: none;
+    }
+    #l4{
+        display: none;
+    }
+    #l5{
+        display: none;
+    }
+    .navbar{
+        padding: 2em;
+    }
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .6s;
+    width: 70%;
+    margin: auto;
+    border: solid;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img {
+    border-radius: 50px;
+    width: 32em;
+    display: block;
+    margin: auto;
+  }
+.card h3{
+    margin: auto 0 auto 47px;
+}
+  
+.cards {
+padding: 2px 16px;
+}
+
+@media(max-width:700px){
+
+    aside{
+        width: 80vw;
+
+    }
+    .bolii{
+        width: 100%;
+    }
+
+}
+
+/* ___________________________________ */
 body{
     height: 800px;
     display: flex;
@@ -10,16 +197,16 @@ img{
     width: 8vw;
 }
 aside{
-    background: blue;
     width: 30vw;
     display: inline-block;
     height: 100%;
+    position: relative;
+    top: 9em;
 }
 .a ,.b{
     display: inline-block;
     width: 32.2%;
     height: 100px;
-    background: yellow;
 }
 button {
     width: 100%;
@@ -27,12 +214,11 @@ button {
 #abc{
     height: 25%;
     position : relative;
-    background: green;
 }
 #abc>button{    display: inline;
     width: 15%;
     height: 15%;
-    background: yellow;
+    background: #0054d0;
     /* padding-right: 10%; */
     margin-right: 17%;
     top: 80px;
@@ -68,9 +254,10 @@ button {
 }
 #data>div{
     display: block;
-    background: red;
+    background: #202836;
     height: 50%;
     position: relative;
+    color: white;
 }
 #data>div>img,#data>div>div{
     display: inline-block;
@@ -97,12 +284,10 @@ button {
 .info{
     height: 25%;
     width: 100%;
-    background: pink;
     display: inline-block;
     padding-left: 10%
 }
 main{
-    background: yellow;
     display: inline-block;
     height: 100%;
     width: 70vw;
@@ -110,7 +295,7 @@ main{
 #sections,.content{
     margin-top: 30px;
     height: 100%;
-    background: #808080;
+    background: #f6f6f7;
     display: flex;
     padding-top: 1%;
 }
@@ -128,7 +313,6 @@ a{
 
 .content{
     margin: 10%;
-    background: violet;
     height: 60%;
     padding-left: 10%
 }
@@ -140,14 +324,14 @@ a{
     display: inline-block;
     height: 100%;
     width: 100%;
-    color: red;
     margin : 0px;
 }
 .content ol li>a{
-    color :green
 }
 #section-nav{
     height: 5%;
+    position: relative;
+    left: 6em;
 }
 .content{
     display: none;
